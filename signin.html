@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+    <title>Sign in</title>
+</head>
+<body>
+    <header>
+        <div class=" container">
+            <div id="header" >
+             <a href="#" class="back"><span class="sr-only">back</span></a>
+             <h1 class="page-title" id="title-sigh-in">Sign in</h1>
+            </div>
+        </div>
+    </header>
+    <main id="main-with-small-header" class="container">
+        <form action="#" aria-labelledby="title-sigh-in">
+            <div class="form-line">
+                <label for="tel" >Phone number </label>
+                <div class="input-fixed-icon">
+                    <div class="input-fixed-left flag-us"></div>
+                    <input id="tel" class="input" type="tel" inputmode="tel" placeholder="+1 900 800 70 60" autocomplete="tel">
+                </div>
+              
+            </div>
+           <div class="form-line">
+                 <label for="password">Password  </label>
+                <input id="password" class="input" type="password" placeholder="*****" autocomplete="current-password">               
+           </div>
+           <div class="form-button">
+                <a class="ax-button btn--block btn btn--link recover-password" href="profile.html">Recover password</a>
+                <a href="dashboard.html" class="ax-button btn btn--block btn--raised">Sign in</a>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

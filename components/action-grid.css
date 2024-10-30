@@ -1,0 +1,41 @@
+.actions-grid{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding: 1rem;   
+
+}
+.action {
+    width: 55px;
+    height: 55px;
+    border-radius: 15px; 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.action-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: 1.5rem;   
+    
+}
+.action-topup{
+    background-image: url("https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608527/learnhtmlcss/my-bank/arrow-up.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.action-send{
+    background-image: url("https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608527/learnhtmlcss/my-bank/arrow-right.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.action-add{
+    background-image: url("https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608527/learnhtmlcss/my-bank/add.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.action-exchange{
+    background-image: url("https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608532/learnhtmlcss/my-bank/exchange.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}

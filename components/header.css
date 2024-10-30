@@ -1,0 +1,25 @@
+@layer component{
+    #header{
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        height: 3rem;
+    }
+    #header .back{
+        background-image: url("https://res.cloudinary.com/dbfn5lnvx/image/upload/v1647608527/learnhtmlcss/my-bank/back.svg");
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 24px;
+        position: absolute;
+        left: 0;
+        
+      
+    }
+    #title-sigh-in{
+        margin: 0;
+        font-size: 1.12rem;
+        font-weight: 500;
+  
+    }
+}

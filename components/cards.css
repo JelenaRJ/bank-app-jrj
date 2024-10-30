@@ -1,0 +1,55 @@
+#cards{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 75%);    
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    align-items: center;
+    gap: 1rem;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    
+    
+
+}
+#cards .card{   
+    border-radius: 15px;
+    height: 200px;    
+    display: grid;
+    align-items: center;
+    box-sizing: border-box;
+
+
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 98%;
+    padding: 1rem;
+    box-sizing: border-box;
+
+}
+#cards .card--dark{
+    background-color: hwb(213 10% 69%);
+
+}
+#cards .card--light{
+    background-color: hwb(210 96% 3%);
+    color: black;
+
+}
+.card-details{
+    display: flex;
+    justify-content: space-between;
+
+}
+.card-amount{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.card-logo{
+    width: 40px;
+    height: auto;
+}
